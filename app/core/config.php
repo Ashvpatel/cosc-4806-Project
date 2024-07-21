@@ -19,4 +19,7 @@ define('DB_USER',         'cosc4806_petletcup');
 define('DB_PASS',         $_ENV['DB_PASS']);
 define('DB_DATABASE',     'cosc4806_petletcup');
 define('DB_PORT',         '3305');
+
+// Initialize a global variable to track database status
+$GLOBALS['db_status'] = 'up';
 ?>

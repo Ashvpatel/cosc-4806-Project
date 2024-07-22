@@ -10,7 +10,7 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <p><?= htmlspecialchars($review['text']) ?></p>
+            <pre><?= htmlspecialchars($reviewContent) ?></pre>
         </div>
     </div>
 </main>
